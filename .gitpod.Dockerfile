@@ -18,4 +18,5 @@ USER gitpod
 RUN sudo apt-get update && \
     sudo apt-get install -y libgtk-3-dev && \ 
     sudo apt-get install -y libgl1-mesa-dev xorg-dev && \
+    sudo apt-get install -y libxinerama-dev libxcursor-dev librust-pango-dev && \
     sudo rm -rf /var/lib/apt/lists/*
